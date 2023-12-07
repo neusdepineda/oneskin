@@ -1,0 +1,199 @@
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+/*! --------HEADER ---------*/
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.marca h1{
+    font-size: 50px;
+
+}
+
+.categorias ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.categorias ul li {
+    margin: 30px;
+}
+
+.iconos ul {
+    list-style: none;
+    display: flex;
+}
+
+.iconos ul li {
+    margin: 30px;
+
+}
+
+/*! --------MAIN ---------*/
+
+.hero{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/fondo1.webp");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero h2 {
+    font-size: 60px;
+    color:white ;
+}
+
+.productos h2 {
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.card_productos h3 {
+    font-size:  14px;
+    width: 200px;
+}
+
+.items {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+    
+}
+
+.items div button{
+    background:  rgb(227, 193, 255);
+    border: rgb(169, 112, 216);
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card_productos img{
+    width: 200px;
+    height: 200px;
+}
+
+.card_productos p {
+    font-size: 14px;
+    width: 200px;
+}
+
+
+.rutina {
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    text-align: center;
+    /* margin: auto; */
+    padding: 50px;
+    background-color: rgb(255, 247, 236);
+}
+
+.texto h2 {
+    font-size: 40px;
+    margin-top:150px;
+    margin-bottom: 30px;
+}
+
+.texto button {
+    background:  rgb(255, 193, 252);
+    border: rgb(169, 112, 216);
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .creacion_rutina {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px;
+    grid-template-areas:
+    "texto im";
+}
+
+.rutina {
+    grid-area: texto;
+    background-color: #F6B3C4;
+    text-align: center;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    /* margin: auto;
+    padding: 
+    
+}
+
+.imagen {
+    grid-area: im; */
+
+
+/* .creacion_rutina {
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-areas:
+    "texto imagen"
+    ;
+    margin-top: 30px;
+}
+
+.rutina h2 {
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.imagen {
+    border-radius: 10px;
+    grid-area: imagen;
+}
+
+
+.rutina {
+    position: relative;
+    grid-area: texto;
+    text-align: center ;
+    background-image: url("../img/blur.avif");
+    background-size: cover;
+}
+
+.rutina button{
+    background:  rgb(227, 193, 255);
+    border: rgb(169, 112, 216);
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px; */
+
+
+
+/*! --------FOOTER ---------*/
+
+
+/*! --------MEDIA QUERY ---------*/
